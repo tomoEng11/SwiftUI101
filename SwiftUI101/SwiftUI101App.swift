@@ -13,7 +13,7 @@ struct SwiftUI101App: App {
     
     var body: some Scene {
         WindowGroup {
-            _174View()
+            TestView()
         }
     }
 }

@@ -27,6 +27,8 @@ struct CanvasView: View {
         .font(.title)
         .padding()
     }
+    
+   
 }
 
 #Preview {

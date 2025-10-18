@@ -9,15 +9,15 @@
 import Foundation
 import Playgrounds
 
-//#Playground("TimeZone") {
-//    let tz = TimeZone(identifier: "America/Los_Angeles")!
-//    let tzId = tz.identifier
-//    let tzName = tz.localizedName(for: .standard, locale: Locale(identifier: "en_US"))!
-//    let secondsFromGMT = tz.secondsFromGMT()
-//
-//    _ = TimeZone(identifier: "UTC")
-//    _ = TimeZone(secondsFromGMT: 9 * 3600)
-//}
+#Playground("TimeZone") {
+    let tz = TimeZone(identifier: "America/Los_Angeles")!
+    let tzId = tz.identifier
+    let tzName = tz.localizedName(for: .standard, locale: Locale(identifier: "en_US"))!
+    let secondsFromGMT = tz.secondsFromGMT()
+
+    _ = TimeZone(identifier: "UTC")
+    _ = TimeZone(secondsFromGMT: 9 * 3600)
+}
 
 #Playground("test") {
     let ny = TimeZone(identifier: "America/New_York")!
